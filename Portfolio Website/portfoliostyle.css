@@ -1,0 +1,172 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.change:hover {
+color: red;
+}
+/* Beginning of nav style */
+nav {
+    height: 5%;
+    background-color:white;
+    margin-bottom: 4%;
+    text-align: right;
+    border-bottom: 0.5px solid rgb(228, 228, 228);
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+nav a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    margin: 2%;
+    font-weight: bold;
+}
+#adjust {
+    margin-right: 3%;
+}
+/* end of nav style */
+
+/* Beginning of main style */
+main {
+    height: 75%;
+    background-color:white;
+}
+.wrapper{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.2fr 0.5fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.box1 {
+    background-color:rgb(255, 243, 228);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 15px;
+}
+.intro {
+font-size: 14px;
+margin-bottom: 0px;
+padding-top: 15%;
+}
+.description {
+    margin-top: 5%;
+    line-height:18px;
+    font-size: 10px;
+    padding-bottom:15%;
+}
+.box2 {
+    background-image: url(images/canon.jpg);
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.box3 {
+    background-image: url(images/Photograph.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.box4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.container1 {
+background-image: url(images/flowers.jpg);
+background-position: center;
+background-repeat: no-repeat ;
+background-size: cover;
+}
+.container2 {
+background-image: url(images/AURORA.jpg);
+background-position: center;
+background-repeat: no-repeat ;
+background-size: cover;   
+}
+.container3 {
+grid-column-start: 1;
+grid-column-end: 3;
+background-image: url(images/sunset\ leaf.jpg);
+background-position: center;
+background-repeat: no-repeat ;
+background-size: cover;
+}
+.box5 {
+    background-color:rgb(243, 130, 0);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+.text{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 12px;
+}
+/* end of main style */
+
+/* Beginning of footer style */
+footer {
+    height: 20%;
+    background-color:rgb(53, 52, 52);
+    margin-top: 4%;
+}
+.wrapper2 {
+    height:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1.5fr 0.5fr;
+    font-size: 5px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.wrap1{
+    padding-left: 15%;
+}
+.option {
+   line-height:10px;
+    color: white;
+    font-size: 7px;
+}
+.wrap2{
+    padding-left: 15px;
+}
+.wrap3{
+    padding-right:10%;
+}
+.add {
+    line-height: 13px;
+}
+.wrap4{
+    background-color:rgb(41, 41, 41);
+    grid-column-start:1;
+    grid-column-end: 4;
+    text-align: center;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    font-size: 7px;
+}
+/* end of footer style */
+
+/* ruleset will apply once the width hits 570px */
+
+ @media screen and (min-width:570px) {
+     body, html {
+         width: 570px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+    }
