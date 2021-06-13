@@ -18,13 +18,18 @@ nav {
     padding-top: 1%;
     padding-bottom: 0.5%;
 }
+.name {
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    padding-right: 10%;
+}
 nav a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 10px;
     text-decoration: none;
     color: black;
     text-transform: capitalize;
-    margin: 2%;
+    margin: 1%;
     font-weight: bold;
 }
 #adjust {
@@ -169,4 +174,8 @@ footer {
          margin-left: auto;
          margin-right: auto;
      }
+     .name {
+        font-size: 25px;
+        padding-right: 30%;
+    }
     }
